@@ -1,0 +1,61 @@
+body {
+    margin: 0 auto;
+    /* width: 1200px; */
+    /* padding: 20px; */
+}
+
+.grayText {
+    color: gray;
+}
+
+.blueButton {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav,
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+
+.menu:hover {
+    cursor: pointer;
+    color: black;
+}
+
+/* hero starts-------------------- */
+.hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.01)), url('./assets/banner.jpg');
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.hero .blueButton {
+    width: 50%;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero .grayText {
+    font-size: 20px;
+}
+
+/* =-------------------------------- */
