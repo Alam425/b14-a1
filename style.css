@@ -7,6 +7,10 @@ body {
     /* padding: 20px; */
 }
 
+.blueBlackBg {
+    background-color: #0D1B2A;
+}
+
 .hrBg {
     height: 2px;
     border: 0;
@@ -34,6 +38,7 @@ body {
 }
 
 .blueButton {
+    cursor: pointer;
     color: white;
     background-color: blue;
     border: none;
@@ -66,6 +71,15 @@ nav {
     color: black;
 }
 
+.centered45pxheading {
+    text-align: center;
+    font-size: 45px;
+}
+
+.topBottomPadding {
+    padding: 30px 0;
+}
+
 /* ================================== */
 
 /* hero starts-------------------- */
@@ -96,14 +110,6 @@ nav {
 /* =-------------------------------- */
 
 /* meet the speakers=================== */
-.centered45pxheading {
-    text-align: center;
-    font-size: 45px;
-}
-
-.topBottomPadding {
-    padding: 30px 0;
-}
 
 .speakersSection {
     display: grid;
@@ -161,16 +167,13 @@ nav {
     padding: 10px 0;
 }
 
-.packagePro {
-    background-color: #0D1B2A;
-}
-
 .packageBtnCommon {
-    margin: 0 auto;
     width: 100%;
-    padding: 10px 29px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
     font-size: 16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .packageBtnBlue {
@@ -180,3 +183,24 @@ nav {
 }
 
 /* =============================================== */
+
+header,
+.speakersSection {
+    display: none;
+}
+
+/* footer====================================== */
+
+footer {
+    margin-top: 50px;
+    padding: 50px 80px;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ============================================= */
