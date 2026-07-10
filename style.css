@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 body {
     margin: 0 auto;
+    font-family: "inter";
     /* width: 1200px; */
     /* padding: 20px; */
+}
+
+.hrBg {
+    height: 2px;
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.445);
+}
+
+.centerAligned {
+    text-align: center;
 }
 
 .padding100px {
@@ -13,7 +26,11 @@ body {
 }
 
 .blueText {
-    color: blue
+    color: blue;
+}
+
+.whiteText {
+    color: white;
 }
 
 .blueButton {
@@ -84,7 +101,7 @@ nav {
     font-size: 45px;
 }
 
-.sectionForSpeakers {
+.topBottomPadding {
     padding: 30px 0;
 }
 
@@ -112,3 +129,59 @@ nav {
 }
 
 /* ===================================== */
+
+
+/* secure your spot section======================= */
+.packages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: ; */
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.package {
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    border-radius: 10px;
+}
+
+.package li::marker {
+    color: blue;
+    list-style: circle;
+}
+
+.package ul {
+    padding-left: 20px;
+    color: slategray;
+}
+
+.package li {
+    padding: 10px 0;
+}
+
+.packagePro {
+    background-color: #0D1B2A;
+}
+
+.packageBtnCommon {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 29px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.packageBtnBlue {
+    color: blue;
+    border: 2px solid blue;
+    background-color: #fff;
+}
+
+/* =============================================== */
+
+header,
+.speakersSection {
+    display: none;
+}
