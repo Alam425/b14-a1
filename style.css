@@ -11,6 +11,10 @@ body {
     background-color: #0D1B2A;
 }
 
+.grayBg {
+    background-color: rgba(110, 112, 114, 0.075);
+}
+
 .hrBg {
     height: 2px;
     border: 0;
@@ -159,11 +163,6 @@ nav {
     box-shadow: 0 20px 40px rgba(0, 0, 255, 0.1);
 }
 
-.package li::marker {
-    color: blue;
-    list-style: circle;
-}
-
 .package ul {
     padding-left: 20px;
     color: slategray;
@@ -171,6 +170,11 @@ nav {
 
 .package li {
     padding: 10px 0;
+}
+
+.package li::marker {
+    color: blue;
+    list-style: circle;
 }
 
 .packageBtnCommon {
