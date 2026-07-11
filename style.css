@@ -145,8 +145,7 @@ nav {
     gap: 50px;
     justify-content: space-between;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 150px;
 }
 
 .package {
