@@ -154,6 +154,11 @@ nav {
     border-radius: 10px;
 }
 
+.package:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 255, 0.1);
+}
+
 .package li::marker {
     color: blue;
     list-style: circle;
