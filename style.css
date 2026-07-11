@@ -145,6 +145,8 @@ nav {
     gap: 50px;
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .package {
@@ -186,7 +188,7 @@ nav {
 
 header,
 .speakersSection {
-    display: none;
+    /* display: none; */
 }
 
 /* footer====================================== */
@@ -201,6 +203,71 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+/* ============================================= */
+
+
+/* Why Attend Section========================== */
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.statCard {
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 255, 0.1);
+}
+
+.statNumber {
+    font-size: 55px;
+    margin: 0;
+}
+
+.statLabel {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.tracksGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.trackCard {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    border-left: 4px solid blue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trackCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.trackIcon {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+.trackCard h3 {
+    margin: 5px 0;
+    font-size: 20px;
 }
 
 /* ============================================= */

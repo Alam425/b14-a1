@@ -1,0 +1,3 @@
+this is my project code. there is supposed to be a section above the footer. it was given a challenge for me to sort it out. the section should stay relevant to the webpage concept. it should be unique and beautiful and enormous...
+
+suggest me, please
